@@ -45,10 +45,8 @@ public class Exercicio01 {
         System.out.println("A quantidade de numeros digitados é: \n"
                 + listaNumerosDigitados.size());
 
-        int mediaNumeros = 0;
-        for (int n : listaNumerosDigitados) {
-            mediaNumeros = somaNumeros / listaNumerosDigitados.size();
-        }
+        int mediaNumeros = 0;       
+            mediaNumeros = somaNumeros / listaNumerosDigitados.size();        
 
         System.out.println("A média dos numeros digitados é: \n"
                 + mediaNumeros);
